@@ -12,7 +12,7 @@ ribbon:
   ReadTimeout: 60000
 zuul:
   debug:
-    request: false
+    request: true
   routes:
     baidu:
       path: /test163/**
