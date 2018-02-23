@@ -14,9 +14,9 @@ zuul:
   debug:
     request: true
   routes:
-    baidu:
+    test163:
       path: /test163/**
       url: http://www.163.com
-    baidus:
+    test164:
       path: /test164/**
       url: http://www.163.com
