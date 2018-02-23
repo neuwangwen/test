@@ -12,8 +12,11 @@ ribbon:
   ReadTimeout: 60000
 zuul:
   debug:
-    request: false
+    request: true
   routes:
     baidu:
       path: /test163/**
+      url: http://www.163.com
+    baidus:
+      path: /test164/**
       url: http://www.163.com
